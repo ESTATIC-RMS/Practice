@@ -1,0 +1,15 @@
+en -> enable 
+e? -> for finding the command that start from e or any alphabet
+conf t
+host
+hostname r1
+do show ip interface brief
+interface gigabitEthernet 0/0 ( int g0/0)
+ip address 192.168.10.0 255.255.255.0 (ip add 192.168.10.0 255.255.255.0)
+no shutdown
+
+
+----for switches----
+en
+sh ip int br
+sh int status
